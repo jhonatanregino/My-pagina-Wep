@@ -1,0 +1,76 @@
+.padre {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 1200px;
+}
+
+.padre h1 {
+    position: absolute;
+    color: rgb(251, 248, 248);
+    text-shadow: rgb(236, 76, 204) 3px 3px 4px;
+    top: 0px;
+    left: 300px;
+}
+
+.padre p {
+    color: rgb(17, 195, 159);
+    position: absolute;
+    top: 55px;
+    left: 100px;
+}
+
+body {
+    background: rgb(2, 27, 41);
+}
+
+.video {
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.video img {
+    position: absolute;
+    top: 0px;
+    left: 680px;
+    height: 360px;
+    width: 640px;
+}
+
+
+.descarga {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    height: 100px;
+    width: 400px;
+}
+
+.descarga .descargar ul {
+    display: flex;
+    list-style: none;
+}
+
+.descarga .descargar img {
+    height: 90px;
+    width: 90px;
+}
+
+.descarga .descargar .des1 {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.descarga .descargar .des2 img {
+    height: 120px;
+    width: 120px;
+}
+
+.descarga .descargar .des2 {
+    position: relative;
+    top: 0px;
+    left: 257px;
+}

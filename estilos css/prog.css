@@ -1,0 +1,158 @@
+body {
+    background: rgb(2, 2, 39);
+}
+
+section h1 {
+    left: 400px;
+    font-size: 2rem;
+    color: rgb(243, 240, 250);
+    text-shadow: rgb(248, 238, 246) 3px 3px 4px;
+    display: flex;
+    position: absolute;
+}
+
+.secprincipal section p {
+    color: rgb(243, 240, 250);
+    text-shadow: rgb(72, 122, 239) 3px 3px 4px;
+}
+
+.secprincipal {
+    position: absolute;
+    top: 15px;
+    height:100px;
+    
+    background: rgb(2, 15, 26);
+    color: rgb(230, 230, 242);
+}
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+.slider {
+
+    animation: slide 36s infinite alternate ease-in-out;
+
+}
+
+.animacion {
+
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    background: red;
+}
+
+.slider ul {
+    display: flex;
+    list-style: none;
+}
+
+.slider li {
+    list-style: none;
+}
+
+.slider img {
+
+    width: 500px;
+    height: 500px;
+}
+
+.caracteristicas {
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    width: 550px;
+    height: 400px;
+    background: rgb(22, 82, 138);
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0%;
+    }
+
+    16% {
+        margin-left: 0%;
+    }
+
+    32% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -100%;
+    }
+
+    55% {
+        margin-left: -200%;
+    }
+
+    60% {
+        margin-left: -200%;
+    }
+
+    65% {
+        margin-left: -300%;
+    }
+
+    70% {
+        margin-left: -300%;
+    }
+
+    85% {
+        margin-left: -400%;
+    }
+
+    90% {
+        margin-left: -400%;
+    }
+
+    95% {
+        margin-left: -500%;
+    }
+
+    100% {
+        margin-left: -500%;
+    }
+
+}
+
+.caracteristicas  table, th, td {
+  border: 1px solid blak;
+  border-collapse: collapse;   
+}  
+.caracteristicas  table{
+    background: rgb(177, 208, 240);
+}
+
+.descarga{
+    position: absolute;
+    top: 580px;
+    left: 900px;
+    width: 140px;
+    height: 100px;
+   
+}
+.descarga img{  
+        animation: float 4s linear infinite;
+    width: 90px;
+    height: 50px; 
+    }
+    
+    @keyframes float{
+        0%, 100%{
+            transform: translateY(0rem);
+        }
+        50%{
+            transform: translateY(-1.5rem);
+        }
+    }
+     
